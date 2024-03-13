@@ -63,14 +63,16 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.warden/co
 Start the node You can now start the node using the following command:
 ```
 wardend start
+```
 Create a validator
 If you want to create a validator in the testnet, follow the instructions in the Creating a validator section.
-```
+
 Create Wallet
 ```
 wardend keys add wallet
+```
 faucet token
-
+```
 curl --json '{"address": "<your-address>"}' https://faucet.alfama.wardenprotocol.org
 ```
 Check Banlance
