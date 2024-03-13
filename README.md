@@ -1,4 +1,18 @@
-Warden-protocol
+<b>Warden Protocol</b>
+
+Website: https://wardenprotocol.org/
+<br>Twitter: https://twitter.com/wardenprotocol
+<br>Discord: https://discord.gg/m53kuTaq
+<br>Explorer: https://warden-explorer.paranorm.pro/warden/staking</br>
+
+Faucet on your node, change your_address:  
+```
+curl --data '{"address": "your_address"}' https://faucet.alfama.wardenprotocol.org
+```
+```
+Minimum hardware requirement
+2 Cores, 4G Ram,  80G SSD, Ubuntu 22.04
+```
 Update system
 ```
 sudo apt update
